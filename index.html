@@ -1,0 +1,36 @@
+<html class="app">
+  <head>
+    <title>carbon trigger</title>
+    <link rel="styleSheet" href="style.css">
+  </head>
+  <body>
+    <h1>Welcome to your personal carbon trigger!</h1>
+   
+    <form class="form-data">
+      <h2>Add your information</h2>
+      <div>
+        <label for="region">Region Name</label> <br>
+        <input type="text" id="region" required class="region-name">  
+      </div>
+      <div>
+        <label for="api">Your API</label> <br>
+        <input type="text" id="api" required class="api-key">
+      </div>
+      <button class="button" >Submit</button>
+    </form>
+
+    <div class="result">
+      <div class="loading">loading...</div>
+      <div class="error"></div>
+      <div class="data"></div>
+      <div class="result-container">
+        <p><strong>Region:</strong><span class="my-region"></span></p>
+        <p><strong>Carbon usage:<span class="carbon-usage"></span></strong></p>
+        <p><strong>Fossil Fuel Percentage: <span class="fossil-fuel"></span></strong></p>
+      </div>
+      <button class="clear-button">Change Region</button>
+
+    </div>
+
+  </body>
+</html>
