@@ -1,0 +1,23 @@
+
+.highlight {
+  background-color: yellow;
+}
+
+.error {
+  background-color: lightcoral;
+  border: red;
+}
+
+.app {
+  text-align: center;
+  border: 2px solid #ccc;
+  width: 60%;
+  height: 50%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.quote {
+  font-size: 15px;
+
+}
